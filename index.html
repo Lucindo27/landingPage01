@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Jogos</title>
+</head>
+<body>
+    
+    <div class="site">
+    <div class="header">
+        <h1>Jogos</h1>
+    </div>
+    
+    <div class="container">
+        <div class="history">
+            <p>William A. Higinbotham criou um dos primeiros videogames, Tennis for Two (“tênis para dois”), em 1958. O primeiro jogo de fliperama chamou- se Computer Space e foi lançado em 1971. Logo outros jogos de sucesso surgiram, como Pong, Invasores do espaço e Pac-Man.</p> 
+            <img src="jogo1.jpg" alt="superMario">
+            <p class="textImg">Tennis for Two ( criado em 1958 )</p>           
+        </div>
+
+        <form>
+            <div class="container-form">
+                <div class="header-form">
+                    <h3>Qual você prefere ?</h3>
+                    <p>Vamos descobrir qual é o seu gosto para jogos !</p>
+                </div>
+    
+                <div class="box-input">
+                    <label for="first">Qual é o seu jogo preferido ?</label>
+                    <input type="text" name="first" id="first" class="block" placeholder="O nome do jogo !" required>
+                </div>
+    
+                <div class="box-input">
+                    <label for="second">Qual foi o seu primeiro video game ?</label>
+                    <input type="text" name="second" id="second" class="block" placeholder="O nome do video game !" required>
+                </div>
+    
+                <div class="box-input">
+                    <label for="third">Por qual motivo você gosta de jogar video game ?</label>
+                    <textarea name="third" id="third" class="block" placeholder="Aqui você pode colocar o motivo de gostar de jogar video game !"></textarea>
+                </div>
+    
+                <div class="box-input">
+                    <p>Qual plataforma você prefere jogar ?</p>
+                    <input type="radio" name="plataform" id="plataform1">
+                    <label for="plataform1">Playstation</label>
+                    <input type="radio" name="plataform" id="plataform2">
+                    <label for="plataform2">Xbox</label>
+                    <input type="radio" name="plataform" id="plataform3">
+                    <label for="plataform3">Nitendo</label>
+                    <input type="radio" name="plataform" id="plataform4">
+                    <label for="plataform4">Computador</label>
+                    <input type="radio" name="plataform" id="plataform5">
+                    <label for="plataform5">Celular</label>
+                </div>
+    
+                <div class="optional-box">
+                    <p>Qual dos 10 jogos mais vendidos do mundo você já jogou ?</p>
+                    <ul class="optional-list">
+                        <li>
+                            <input type="checkbox" id="tetris" name="optional[]" value="tetris">
+                            <label for="tetris">Tetris</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="minecraft" name="optional[]" value="minecraft">
+                            <label for="minecraft">Minecraft</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="gtav" name="optional[]" value="gtav">
+                            <label for="gtav">GTA V</label>
+                        </li>     
+                        <li>
+                            <input type="checkbox" id="wiisports" name="optional[]" value="wiisports">
+                            <label for="wiisports">Wii Sports</label>
+                        </li>          
+                        <li>
+                            <input type="checkbox" id="pubg" name="optional[]" value="pubg">
+                            <label for="pubg">PUBG</label>
+                        </li>           
+                    </ul>
+                </div>
+    
+                <div class="optional-box">
+                    <ul class="optional-list">
+                        <li>
+                            <input type="checkbox" id="mariokart" name="optional[]" value="mariokart">
+                            <label for="mariokart">Mario Kart 8 Deluxe</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="supermario" name="optional[]" value="supermario">
+                            <label for="supermario">Super Mario Bros</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="readdead" name="optional[]" value="readdead">
+                            <label for="readdead">Read Dead Redemption 2</label>
+                        </li>     
+                        <li>
+                            <input type="checkbox" id="overwatch" name="optional[]" value="overwatch">
+                            <label for="overwatch">Overwatch</label>
+                        </li>          
+                        <li>
+                            <input type="checkbox" id="thewitcher" name="optional[]" value="thewitcher">
+                            <label for="thewitcher">The Witcher 3: Wild Hunt</label>
+                        </li>           
+                    </ul>
+                </div>
+    
+                <input type="submit" value="Enviar" class="btn-submit">
+    
+            </form>
+        </div>
+    </div>
+</body>
+</html>
